@@ -8,6 +8,7 @@ I build **local-first developer tools** that help teams make AI-assisted changes
 | --- | --- | --- |
 | [PatchWitness](https://github.com/pangxueyuan2-creator/patchwitness) | Produces a verifiable Change Passport for a patch: scope, protected files, executed checks, secret findings, dependency impact, and portable evidence. | Run the [60-second demo](https://github.com/pangxueyuan2-creator/patchwitness#60-second-demo-tests-pass-the-gate-fails). |
 | [GuardSpec](https://github.com/pangxueyuan2-creator/guardspec) | Compiles explicit repository instructions into deterministic, reviewable boundaries for paths, commands, network domains, and MCP servers. | Try its [quick start](https://github.com/pangxueyuan2-creator/guardspec#quick-start). |
+| [RuleRelay](https://github.com/pangxueyuan2-creator/rule-relay) | Discovers AI coding-agent instruction files, explains their path relevance, and validates instruction drift without executing embedded commands. | Follow its [release-backed quick start](https://github.com/pangxueyuan2-creator/rule-relay#quick-start). |
 | [TaskToPR](https://github.com/pangxueyuan2-creator/tasktopr) | Turns one GitHub Issue into a bounded, tested, reviewable local change or Pull Request. | Run the [repeatable demo](https://github.com/pangxueyuan2-creator/tasktopr#repeatable-60-second-demo). |
 | [SheetSentry](https://github.com/pangxueyuan2-creator/sheetsentry) | Inspects and safely sanitizes CSV/TSV data locally before it is shared or imported. | Read the [README](https://github.com/pangxueyuan2-creator/sheetsentry). |
 | [Repo Privacy Guard](https://github.com/pangxueyuan2-creator/repo-privacy-guard) | Scans a repository for secrets and privacy-sensitive material before it becomes public. | Review the [scanner workflow](https://github.com/pangxueyuan2-creator/repo-privacy-guard). |
@@ -21,7 +22,7 @@ The projects are intentionally small, composable tools rather than a hosted cont
 
 | Stage | Useful project | Question it helps answer |
 | --- | --- | --- |
-| Before an agent acts | [GuardSpec](https://github.com/pangxueyuan2-creator/guardspec) | Which explicit repository boundaries apply to this task? |
+| Before an agent acts | [RuleRelay](https://github.com/pangxueyuan2-creator/rule-relay) and [GuardSpec](https://github.com/pangxueyuan2-creator/guardspec) | Which instruction files are relevant, and which explicit repository boundaries apply to this task? |
 | During a bounded repair | [TaskToPR](https://github.com/pangxueyuan2-creator/tasktopr) | Can this issue be turned into a transparent, tested change? |
 | Before merge | [PatchWitness](https://github.com/pangxueyuan2-creator/patchwitness) | What independently collected evidence supports this patch? |
 | Before sharing a repository or data file | [Repo Privacy Guard](https://github.com/pangxueyuan2-creator/repo-privacy-guard) and [SheetSentry](https://github.com/pangxueyuan2-creator/sheetsentry) | Could this material expose a secret, sensitive field, or unsafe spreadsheet formula? |
