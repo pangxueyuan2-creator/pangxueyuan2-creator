@@ -14,6 +14,10 @@ I build **local-first developer tools** that help teams make AI-assisted changes
 | [Repo Privacy Guard](https://github.com/pangxueyuan2-creator/repo-privacy-guard) | Scans a repository for secrets and privacy-sensitive material before it becomes public. | Review the [scanner workflow](https://github.com/pangxueyuan2-creator/repo-privacy-guard). |
 | [OSS README Studio](https://github.com/pangxueyuan2-creator/oss-readme-studio) | A free, no-sign-in bilingual README generator and quality audit for open-source maintainers. | Open the [public demo](https://pangxueyuan2-creator.github.io/oss-readme-studio/). |
 
+## Maintenance baseline
+
+The featured repositories use continuously verified main-branch quality checks and CodeQL analysis. Their GitHub Actions dependencies are pinned to immutable revisions, and Dependabot is configured to surface maintenance and security updates for review. These controls complement—rather than replace—the project-specific tests, threat models, and review guidance documented in each repository.
+
 ## A practical trust boundary
 
 > **Make repository intent explicit before work begins, preserve evidence while a change is made, and keep the resulting review surface inspectable without relying on a model to judge itself.**
