@@ -16,8 +16,9 @@ Other tools:
 - **[GuardSpec](https://github.com/pangxueyuan2-creator/guardspec)** — turns rules written in AGENTS.md / CLAUDE.md / Cursor rules into something you can check before an agent runs
 - **[RuleRelay](https://github.com/pangxueyuan2-creator/rule-relay)** — finds and explains those agent instruction files in a repo
 - **[TaskToPR](https://github.com/pangxueyuan2-creator/tasktopr)** — takes one GitHub Issue, makes a small change on a branch, runs tests, optionally opens a PR
-- **[Repo Privacy Guard](https://github.com/pangxueyuan2-creator/repo-privacy-guard)** — offline scanner for secrets and privacy issues before you make a repo public
+- **[Repo Privacy Guard](https://github.com/pangxueyuan2-creator/repo-privacy-guard)** — offline scanner for secrets and privacy issues before you make a repo public (supports `--staged` for the next commit)
 - **[SheetSentry](https://github.com/pangxueyuan2-creator/sheetsentry)** — local CSV/TSV checker that also looks for formula injection problems
+- **[coding-agent-skills](https://github.com/pangxueyuan2-creator/coding-agent-skills)** — short copy-paste skills/checklists for agents (security, tests, docs)
 - **[OSS README Studio](https://github.com/pangxueyuan2-creator/oss-readme-studio)** — free bilingual README generator, no sign-up
 - **[simple-local-tools](https://github.com/pangxueyuan2-creator/simple-local-tools)** — a few tiny everyday scripts (rename cleaner, find big files, git summary)
 
