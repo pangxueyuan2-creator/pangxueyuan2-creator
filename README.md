@@ -24,6 +24,14 @@ Other tools:
 
 ---
 
+## Repository engineering help
+
+I also take small, fixed-scope repository maintenance jobs: CI, tests, release checks, GitHub Actions hardening, packaging, and documentation cleanup.
+
+See **[what I can deliver](SERVICES.md)** and a **[PatchWitness case study](CASE_STUDY_PATCHWITNESS.md)**. If you have a concrete repo problem, open a repository engineering request here with the issue form.
+
+---
+
 Still early. One person. Every repo has its own limitations written down.
 
 If something is useful, issues and PRs are welcome.

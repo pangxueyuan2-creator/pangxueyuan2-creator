@@ -1,0 +1,64 @@
+name: Repository engineering request
+description: Request a scoped repository audit, fix, or hardening pass
+title: "[repo request] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Keep the request concrete. A small, testable scope is much easier to price, review, and deliver well.
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem do you want solved?
+      description: Describe the current failure, risk, missing capability, or maintenance pain.
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: What would count as done?
+      description: Give concrete acceptance criteria if you have them.
+    validations:
+      required: true
+
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Languages, supported platforms, files that must not change, release deadlines, or other boundaries.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Requested scope
+      options:
+        - Audit / diagnosis only
+        - Small bug fix with tests
+        - CI / GitHub Actions work
+        - Test coverage / regression hardening
+        - Packaging / release engineering
+        - Documentation / contributor workflow
+        - Other focused maintenance task
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Existing evidence
+      description: Paste failing commands, CI links, issue links, logs, or a minimal reproduction.
+    validations:
+      required: false
